@@ -14,6 +14,7 @@ body{
 	width: 450px;
 	background: rgba(0, 0, 0, 0.4);
 	padding: 40px;
+	align-self: flex;
 	text-align: center;
 	margin: auto;
 	margin-top: 5%;
@@ -62,4 +63,9 @@ ul
 	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
 	margin: 0 30px;
 	border-radius: 50px;
+}
+
+.box li instagram:hover
+{
+	background-image: url("./instagram.png");
 }
